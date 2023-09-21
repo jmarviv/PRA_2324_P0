@@ -12,5 +12,4 @@ int main(){
 	cout<<robot.consuly()<<endl;
 	cout<<robot.consulz()<<endl;
 	cout<<robot.consulsujetar()<<endl;
-	return 0;
-}
+	}

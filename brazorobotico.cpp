@@ -39,4 +39,4 @@ double BrazoMecanico::consulz(){
 
 bool consulsujetar(){
 	return sujetar;
-}
+	}
