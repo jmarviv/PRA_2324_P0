@@ -8,8 +8,11 @@ int main(){
 	robot.mover(90,90,90);
 	robot.soltar();
 	robot.cojer();
-	cout<<robot.consulx()<<endl;
-	cout<<robot.consuly()<<endl;
-	cout<<robot.consulz()<<endl;
-	cout<<robot.consulsujetar()<<endl;
+	cout<<"la posicion del eje x es de: "<<robot.consulx()<<endl;
+	cout<<"la posicion del eje y es de: "<<robot.consuly()<<endl;
+	cout<<"la posicion del eje z es de: "<<robot.consulz()<<endl;
+	if (robot.consulsujetar()==true)
+		cout<<"el robot esta agarrando un objeto"<< endl;
+	else
+		cout<<"el robot no esta sujetando un objeto"<<endl;
 	}
