@@ -1,5 +1,5 @@
 #include <iostream>
-#include <brazorobotico.h>
+#include "brazorobotico.h"
 using namespace std;
 
 
@@ -37,6 +37,7 @@ double BrazoMecanico::consulz(){
 	return z;
 }
 
-bool consulsujetar(){
+bool BrazoMecanico::consulsujetar(){
 	return sujetar;
 	}
+

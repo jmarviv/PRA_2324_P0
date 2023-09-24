@@ -8,3 +8,9 @@ Main: brazorobotico.o practica0.o
 	g++ -o practica0 practica0.o brazorobotico.o
 
 all: Brazorobotico Practica0 Main
+
+clean:
+	rm -f *.o practica0
+
+test: all
+	./practica0
